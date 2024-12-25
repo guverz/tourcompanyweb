@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <title>Турфирма</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>    
+<body>
+<header class="header">
+
+    <div class="container">
+        
+        <div class="header-inner">
+            <a class="header_logo" href="website.html"></a>
+            <nav class="nav">
+                <a class="nav_link" href="#info">Наша компания</a>
+                <a class="nav_link" href="#tours">Туры</a>
+                <a class="nav_link" href="#guides">Гиды</a>
+            </nav>
+        </div>
+        
+    </div>
+</header>
+<div class="intro">
+    <div class="container">
+        <div class="intro_inner">
+            <h1 class="intro_title">Байкал,</h1>
+            <h1 class="intro_title">будем знакомы</h1>
+            <h2 class="intro_subtitle">Авторские туры по Байкалу и его окрестностям</h2>
+            <a class="btn" href="#" id="open_pop_up">Оставить заявку</a>
+            <h3 class="intro_subsub">Социальные сети</h3>
+            <a class="logobtn" href="#"><img src="images/tt.png" alt="TikTok"></a>
+            <a class="logobtn" href="#"><img src="images/tel.png" alt="Telegram"></a>
+            <a class="logobtn" href="#"><img src="images/inst.png" alt="Instagram"></a>
+            <a class="logobtn" href="#"><img src="images/vk.png" alt="VK"></a>
+        </div>
+    </div>
+</div>
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container" id="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <h1>Оставить заявку</h1>
+            <h2>С вами в ближайшее время свяжется оператор для начала путешествия</h2>
+            <form action="">
+                <label for="name">Имя<em></em></label>
+                <input type="text" placeholder="Ваше имя" required>
+                <label for="phonenumber">Номер телефона<em></em></label>
+                <input type="text" placeholder="+7(xxx)xxx-xx-xx" required>
+                <label for="tour">Желаемое место<em></em></label>
+                <select name="direction" id="direct" required>
+				    <option value="khuzhir">Хужир</option>
+				    <option value="baikal">Байкал</option>
+                    <option value="arshan">Аршан</option>
+                    <option value="hamardaban">Хамар-Дабан</option>
+                    <option value="goryachinsk">Горячинск</option>
+                    <option value="sayany">Саяны</option>
+                </select>
+                <button>Отправить</button>
+            </form>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="container">
+        <div class="main_content">
+            <div class="main_info">
+                <h2 class="main_text" id="info">О нас</h2>
+                <p class="main_bigtext">Наша турфирма занимается сбором самых интересных и веселых гидов для авторских походов в Иркутской области и республике Бурятия. Наша главная цель это возможность дать даже самым прожжёным туристам совершенно новый опыт. И в этом нам помогут специальные машруты и наши любимые гиды.</p>
+
+            </div>
+            <div class="main_tours">
+                <h2 class="main_text" id="tours">О наших турах</h2>
+                <div class="main_blocks">
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/nehuzhir1.jpg" alt="неХужир">
+                        <h3 class="nehuzhir_header">Остров Огой</h3>
+                        <p class="nehuzhir_text">Совершенно ненуждающееся в человеке место на Земле. Единственное напоминание о существовании человека это Ступа Просветления. Но она ни в коем случае не разрушает атмосферу этого одинокого острова.</p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/nehuzhir2.jpg" alt="неХужир2">
+                        <h3 class="nehuzhir_header">Мыс Бурхан</h3>
+                        <p class="nehuzhir_text">Возможно, самое лучшее место на земле, чтобы встретить закат. Спокойствие и умиротворение будет окружать вас еще очень долго после разлуки с этим местом.</p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/nehuzhir3.jpg" alt="неХужир3">
+                        <h3 class="nehuzhir_header">Байкал</h3>
+                        <p class="nehuzhir_text">Под ногами сотни метров неизвестного, а разделяет вас только кристально чистый лед. Говорят, если достаточно долго смотреть в глубь Байкала, глубь сама начнет пристально смотреть в вас.</p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/nehuzhir4.jpg" alt="неХужир4">
+                        <h3 class="nehuzhir_header">Горы Саяны</h3>
+                        <p class="nehuzhir_text">Горный воздух, чувство высоты, теплый спальный мешок, о чем может еще мечтать турист? На вершинах гор открывается сумасшедший вид на Восточную Сибирь. Это действительно стоящее путешествие.</p>                    
+                    </div>
+                </div> 
+            </div> 
+            <div class="main_guides">
+                <h2 class="main_text" id="guides">Наши гиды</h2>
+                <p class="main_bigtext">Гиды в нашей фирме - это, буквально, те самые черепахи, на которых держится наша компания. Ведь именно они позволяют вам поистине насладиться красотами и узнать много нового.</p>
+                <div class="main_blocks">
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/RaisGosleev1.jpg" alt="Gosling">
+                        <h3 class="nehuzhir_header">Раис Гуслеев, 27</h3>
+                        <p class="nehuzhir_text">На вид и не скажешь, что он уже эксперт во всем, что связано с выживанием. Туристы любят называть его байкалький Беар Гриллс. И это неспроста. Кроме советов по выживанию в природе, он может рассказать много интересного о самих местах. </p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/zorik2.jpg" alt="Zorik">
+                        <h3 class="nehuzhir_header">Зорик Жигмидцыренов, 45</h3>
+                        <p class="nehuzhir_text">Рожденный в степях Зорик знает о них все. Он ходячая книга о восточном фольклоре. Также он душевный собутыльник, всегда с собой носит фляжку с тарасуном.</p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/Vadim1.jpg" alt="vadim">
+                        <h3 class="nehuzhir_header">Вадим Алпатов, 33</h3>
+                        <p class="nehuzhir_text">Идеальный гид для тех, кто хочет не только отдохнуть, но и заняться спортом. Вадим является мастером спорта всех известных и пока неизвестных видов спорта. Всегда готов к новым потрясениям.</p>
+                    </div>
+                    <div class="main_block_first">
+                        <img class="nehuzhir_img" src="images/ktoto.jpg" alt="ktoto">
+                        <h3 class="nehuzhir_header">Кирилл Джермикин, 30</h3>
+                        <p class="nehuzhir_text">Широко известный бурятский целитель теперь в нашей команде! Он расскажет вам о местных обычаях и целебных свойствах трав. Он также искуссный гитарист, поэтому в походе никогда не будет скучно.</p>
+                    </div>
+                </div> 
+
+            </div>          
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_content">
+            <div class="footer_text">
+                <p>Контакты технической поддержки</p>
+                <p>baikal-tech@mail.ru</p>
+                <p>8(988)451-61-32</p>
+            </div>
+            <img class="footer_img" src="images/license.png" alt="Лицензия CC BY-NC-ND"></img>
+        </div>
+    </div>
+</footer>
+<script src="js/js1.js"></script>
+</body>
+</html>
